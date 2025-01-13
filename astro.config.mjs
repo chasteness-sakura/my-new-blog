@@ -19,9 +19,9 @@ import { parseDirectiveNode } from "./src/plugins/remark-directive-rehype.js";
 import { remarkExcerpt } from "./src/plugins/remark-excerpt.js";
 import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 
-// https://astro.build/config
+// https://astro.build/config   "https://fuwari.vercel.app/"
 export default defineConfig({
-  site: "https://fuwari.vercel.app/",
+  site: "https://invariance.blog/",
   base: "/",
   trailingSlash: "always",
   integrations: [
